@@ -1,5 +1,5 @@
-# cali
-Your own customized calendar
+# Cali
+How you want your Calendar to look like
 
 **How you want your calendar to look like**
 
@@ -20,4 +20,32 @@ Your own customized calendar
 - [x] Custom date view - make your day cells look however you want.
 - [x] [Custom first day of the week] - Use any day as the first day of the week.
 - [x] Enable/Disable the swiping behaviour for the calendar.
-- [x] [Month headers and footers] - Add headers/footers of any kind on each month.
+- [x] [Month/Year headers] - Add headers/footers of any kind on each month.
+
+#### Steps to use in your project
+
+Add it in your root build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+```
+
+Add the dependency
+
+```groovy
+dependencies {
+	        implementation 'com.github.himanshu24yadav:cali:<latest_version>'
+}
+```
+
+You can find the latest version of Calendar View in the releases.
+
+
+#### How to add CalendarView
+
+
