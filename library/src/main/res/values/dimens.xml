@@ -2,10 +2,6 @@
 <resources>
     <item name="position" type="id"/>
 
-    <!-- animation int-->
-    <integer name="animation_duration_200">200</integer>
-    <integer name="animation_duration_150">150</integer>
-
     <dimen name="labeled_switch_default_width">72dp</dimen>
     <dimen name="labeled_switch_default_height">32dp</dimen>
     <dimen name="labeled_switch_default_stroke_width">1dp</dimen>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cali</string>
+    <string name="day_view">Day View</string>
+    <string name="month_view">Month View</string>
+    <string name="selection_type">Selection Type</string>
+    <string name="back">Back</string>
 </resources>
