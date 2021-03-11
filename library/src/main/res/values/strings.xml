@@ -1,0 +1,1388 @@
+<resources xmlns:tools="http://schemas.android.com/tools"  tools:ignore="TypographyEllipsis">
+
+    <string name="app_name">GoMechanic</string>
+    <string name="app_description">Best Car Service &amp; Car Repair App</string>
+
+    <!--App Notification id-->
+    <string name="default_notification_channel_id" translatable="false">1001</string>
+    <string name="support_chat_notification_channel_id" translatable="false">1002</string>
+
+    <!--Google API key-->
+    <!--<string name="google_api_key">AIzaSyBF3zmLLPH00tleuzVeYi8mHkuVvy7PER4</string>-->
+    <!--<string name="google_api_key">AIzaSyAC-TERWcr7C7-SkZ21GjllRPP0T5RdKVk</string>-->
+    <!--<string name="google_api_key">AIzaSyA0qDfgCxr4-7-PXRXCuvrw6pPFv9YKSIE</string>-->
+    <!--<string name="google_api_key1" translatable="false">AIzaSyCTUOv7GAS5Pgqb3bbPH9XwIoP8VMGzWTc</string>-->
+    <!--<string name="google_api_key2" translatable="false">AIzaSyBayMSLsSKbeBR18g7-0YkTrOwpCIrV3TI</string>-->
+    <!--<string name="google_api_key3" translatable="false">AIzaSyAmws17nXJ0KeEUmUYdiWS5Tc3C5Ir-yl0</string>-->
+    <!--<string name="google_api_key4" translatable="false">AIzaSyA0qDfgCxr4-7-PXRXCuvrw6pPFv9YKSIE</string>-->
+    <!--<string name="google_api_key5" translatable="false">AIzaSyCfxpaqs4rPfLnApJuWQchsNt0KC9Sn02g</string>-->
+    <!--<string name="google_map_key_live" translatable="false">AIzaSyBmEAQJ-vE-LsTITrNM-lczkNDJcJhTxKI</string>-->
+
+    <!--Facebook App id-->
+    <!--<string name="facebook_app_id">1205166949667476</string>-->
+    <string name="facebook_app_id" translatable="false">568442337150102</string>
+
+    <!--Branch key-->
+    <string name="branch_key_live" translatable="false">key_live_amtaxekJmGh7V73bIDQrvpoastc29ftq</string>
+    <string name="branch_key_test" translatable="false">key_test_cprcBkdVoKe1QW9gTrSC3ilarDn7YmtK</string>
+
+    <!--TrueCaller key-->
+    <string name="true_caller_key" translatable="false">r2YMV9c26e0e0231743d08e78fb82e9f3cbdb</string>
+    <string name="true_caller_key_test" translatable="false">3ZqWPaba37dd8847f47d68e9817a7ff4a05bb</string>
+    <string name="ravi_true_caller_key_test" translatable="false">UdWfdd56eb221786e45549ab32c0a255e5b96</string>
+
+    <!--RazorPay key-->
+    <string name="razor_pay_test" translatable="false">rzp_test_Bx5e0VfW1Qj3jY</string>
+    <string name="razor_pay_live" translatable="false">rzp_live_rkKuzLuLAR5IaQ</string>
+
+    <!--string array-->
+    <string-array name="tyre_brand_array">
+        <item>Apollo</item>
+        <item>Bridgestone</item>
+        <item>Ceat</item>
+        <item>JK</item>
+        <item>GoodYear</item>
+        <item>MRF</item>
+        <item>Michelin</item>
+    </string-array>
+
+    <string-array name="tyre_size_array">
+        <item>145/80 R13</item>
+        <item>155/80 R13</item>
+        <item>165/70 R14</item>
+        <item>175/65 R14</item>
+        <item>185/65 R15</item>
+        <item>195/55 R16</item>
+        <item>205/65 R16</item>
+        <item>215/65 R16</item>
+        <item>235/65 R17</item>
+    </string-array>
+
+    <string-array name="custom_issue_array">
+        <item>AC Not Cooling Enough</item>
+        <item>Noise in AC System</item>
+        <item>Low Air Flow</item>
+        <item>Ac gas Leakage</item>
+    </string-array>
+
+    <string-array name="parts_replacement_array">
+        <item>Compressor Replacement</item>
+        <item>Condenser Replacement</item>
+        <item>New Complete AC Unit</item>
+        <item>New AC Panel Parts</item>
+    </string-array>
+
+    <string-array name="obd_map_array">
+        <item>Speed Map</item>
+        <item>Driving Map</item>
+    </string-array>
+
+    <string-array name="fact_array">
+        <item>Cars spend 95% of their life parked</item>
+        <item>The inventor of Cruise Control was blind</item>
+        <item>Volvo invented the 3-point seat belt</item>
+        <item>The Wheel was invented around 3500 BCE</item>
+        <item>Charles Goodyear was not the founder of Goodyear Tires</item>
+        <item>Car Recycling Is 16th largest industry in the world</item>
+        <item>The average car contains around 24 kgs of copper wiring</item>
+        <item>The first car accident happened in 1891</item>
+        <item>The odds of dying in a car accident is 1 in 5,000</item>
+        <item>Most people will be in a car crash once every 18 years</item>
+        <item>A single car has about 30,000 parts. About 80% of a car is recyclable</item>
+        <item>Volvo is Latin for <b>I roll.</b> Do you roll in a Volvo?</item>
+        <item>A car is stolen in India every 45 seconds.</item>
+        <item>Toyota has sold over 30 million Corollas in its lifetime</item>
+        <item>There are more cars than people in Delhi</item>
+        <item>The first electric traffic lights were launched in 1927</item>
+        <item>Toyota produces 13,000 cars each day</item>
+        <item><b>Hyundai</b> means <b>the present age</b> or <b>modernity</b> in Korean</item>
+        <item>An average Indian spends about 38 hours/year in traffic</item>
+        <item>The first windshield wipers were hand-operated</item>
+        <item>The first cars had levers instead of steering wheels</item>
+        <item>It takes 0.5ml of fuel to start a car</item>
+        <item>65% of all Rolls-Royce cars ever built are still on the road</item>
+        <item>In 1941, Henry Ford made a <b>Soybean Car.</b> No, it wasn\’t edible.</item>
+        <item>1 in 4 chance that a car accident in India involves a cell phone</item>
+        <item>65% of the world\’s population drives on the right side of the road.</item>
+        <item>White is the world\’s most favorite car color.</item>
+        <item>Indian made cars are delivered to buyers with an average 24 defects a unit</item>
+        <item>A new car smell is actually toxic</item>
+        <item>The world\'s first speeding ticket was issued in 1902.</item>
+        <item>India\’s first indigenous car was the Tata Indica</item>
+        <item>Jamshedji Tata became the first Indian to own a car.</item>
+        <item>Atleast 2 Maruti Suzuki cars are sold every minute!</item>
+        <item>Out of ten Renault cars sold in India, 9 are Dusters</item>
+        <item>First motorsport event in India took place at the Sholavaram track in Chennai</item>
+        <item>The Honda Accord was India\’s first true large luxury sedan.</item>
+        <item>Fiat 1.3L Multijet engine powered 13 models in India until BS6 arrived.</item>
+        <item>Maruti Suzuki sells an average 1.73 million cars every year</item>
+        <item>India is expected to become a leader in shared mobility by 2030</item>
+        <item>The automobile industry contributes to 7.1% of India\'s GDP.</item>
+        <item>Every second car sold in India is a Maruti Suzuki</item>
+        <item>Premier Padmini used to have a waiting period of 10 years</item>
+        <item>Maruti\'s 1.3L MJD is the <b>national engine of India</b></item>
+        <item>Fiat Uno is the most booked car in India till date</item>
+        <item>Average Traffic Speed in Capital City Delhi is not more than 15 Kmph</item>
+        <item>India is the sixth largest producer of automobiles in the world</item>
+        <item>Benz and Mercedes were competitors until 1920</item>
+        <item><b>Mercedes</b> was adopted from the name of a customer\’s daughter <b>Mercedes Jellinek</b>.</item>
+    </string-array>
+
+    <!--whole project string-->
+    <string name="place_holder_text">Place Holder</string>
+    <string name="skip">SKIP</string>
+    <string name="next">Next</string>
+    <string name="go_mechanic_title">GoMechanic</string>
+    <string name="select_your_car">Select your car</string>
+    <string name="select_fuel_type">Select Fuel Type</string>
+    <string name="select_your_city">Select your city</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_on_playstore">Glad you loved the GoMechanic Experience! Would you like rate us on Playstore? </string>
+    <string name="fuel_type_petrol">Petrol</string>
+    <string name="fuel_type_diesel">Diesel</string>
+    <string name="your_otp_for">Your OTP for the order is</string>
+    <string name="hows_your_driving">How’s Your Driving?</string>
+    <string name="fuel_type_cng">Cng</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="driver_rating_aviable_after">Driver Ratings available after driving 1000kms</string>
+    <string name="remove_from_cart">Remove From Cart</string>
+    <string name="demo_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="transition_name_service_title" translatable="false">service_title</string>
+    <string name="transition_name_service_image" translatable="false">service_image</string>
+    <string name="transition_name_service_description" translatable="false">service_description</string>
+    <string name="transition_name_service_discount" translatable="false">service_discount</string>
+    <string name="transition_name_service_price" translatable="false">service_price</string>
+    <string name="transition_name_service_net_price" translatable="false">service_net_price</string>
+    <string name="subheading_important_note">For Repair services final pricing may vary based upon inspection</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="add_cart">ADD TO CART</string>
+    <string name="rate_card">View Rate Card</string>
+    <string name="select_type">Select Engine oil</string>
+    <string name="my_cart">My Cart</string>
+    <string name="coupon">Coupon</string>
+    <string name="select_date">Select Date of Service</string>
+    <string name="select_time">Select Preferred Time</string>
+    <string name="select_service_type">Select Arrival Mode</string>
+    <string name="pickup">Pickup</string>
+    <string name="tell_us_more">Tell us more about your Experience</string>
+    <string name="want_your_car_to_be_pickup">Want your car to be picked up?</string>
+    <string name="i_ll_drop_car_by_myself">I\'ll drop car by myself</string>
+    <string name="self_drop">Self Drop</string>
+    <string name="on_going">ONGOING</string>
+    <string name="no_on_going_orders">No ongoing orders</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="for_any_assistance">FOR ANY ASSISTANCE</string>
+    <string name="you_can_place_your_order_now">You can place your order now</string>
+    <string name="need_help_with">Need help with previous orders?</string>
+    <string name="you_have_rated">You have rated </string>
+    <string name="help_with_ongoing">HELP WITH ONGOING ORDER </string>
+    <string name="very_bad">VERY BAD</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="star_products">Star Products</string>
+    <string name="submit_feedback">SUBMIT FEEDBACK</string>
+    <string name="tell_us_what">Tell us what went wrong</string>
+    <string name="hey_there">Hey there, night owl. You\'re still up!</string>
+    <string name="how_can">How can we help?</string>
+    <string name="better_service">Your feedback will help us delivering better service in the future.</string>
+    <string name="escalation_text">Create an Escalation Ticket?</string>
+    <string name="rate_work_shop">3M Workshop</string>
+    <string name="rate_your_car">Rate your car servicing experience\n with the GoMechanic</string>
+    <string name="rate_our_service">Rate our services</string>
+    <string name="escalation_id">Escalation ID : %s (%s)</string>
+    <string name="rate_your_service">Rate your services</string>
+    <string name="enter_mobile_number">Enter 10 digits Mobile Number</string>
+    <string name="number_digit">9388893888</string>
+    <string name="question1">ENTER REGISTRATION YEAR</string>
+    <string name="question2">ENTER YOUR FULL NAME</string>
+    <string name="enter_ur_mobile_number">Enter your mobile number</string>
+    <string name="continue_text">Continue</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="send_again">Send Again</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="gomac_guarantee">GoMechanic Guarantee</string>
+    <string name="set_range">Set Range</string>
+    <string name="sms_verification_text">We have sent a 4 digit OTP on</string>
+    <string name="sms_verification_text2">EDIT</string>
+    <string name="sms_verification_text3">Enter the OTP below to verify your number.</string>
+    <string name="resend_otp_ts">Resend OTP in %ds</string>
+    <string name="phone_number_message">Please enter 10 digits mobile number</string>
+    <string name="car_verify_text">A car already exists with the given registration number</string>
+    <string name="verify_your_car">Verify Your Car</string>
+    <string name="any_other_issues_type_here">Any other issues? Type here&#8230;</string>
+    <string name="you_pay">You Pay</string>
+    <string name="view_cart">View Cart</string>
+    <string name="input_text_name" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz</string>
+    <string name="input_text_address" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.()/\ ,|1234567890-@_+*&amp;</string>
+    <string name="input_text_number" translatable="false">1234567890</string>
+    <string name="input_text_email" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.1234567890@_</string>
+    <string name="input_text_referal" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890</string>
+    <string name="detect_my_location">Detect my location</string>
+    <string name="have_a_referral_code">Have a referral code?</string>
+    <string name="apply">Apply</string>
+    <string name="submit">Submit</string>
+    <string name="add_service">ADD</string>
+    <string name="remove_service">ADDED</string>
+    <string name="referral_code_optional">Referral Code (Optional)</string>
+    <string name="select_variant">Select Variant</string>
+    <string name="our_services">What are you looking for?</string>
+    <string name="failed_location_permission_message">permissions not granted</string>
+    <string name="rupee_symbol_value" formatted="false">\u20B9 %s</string><!--\u20B9 %s-->
+    <string name="dear">Dear %s , %s</string>
+    <string name="percentage_to_complete">%s %% Completed</string>
+    <string name="workshop_successfully">Workshop Successfully Referred!</string>
+    <string name="we_will_contact">We will contact you if your referred workshop becomes a part of GoMechanic.</string>
+    <string name="okay">OKAY</string>
+    <string name="status_name" translatable="false">status_name</string>
+    <string name="rupee_symbol_value_negative" formatted="false" translatable="false">- \u20B9 %s</string><!--\u20B9 %s-->
+    <string name="add_description">Add Description</string>
+    <string name="add_a_description">Add a description</string>
+    <string name="see_more">see more</string>
+    <string name="coupon_applied_text">%s - Coupon Applied</string>
+    <string name="join_sub">Join Now 12 Months @ </string>
+    <string name="empty_list_title">Sorry, we cannot find what you\'re search for.</string>
+    <string name="empty_list_message">Let us know what you\'re looking for and we\'ll call you back</string>
+    <string name="my_cars">My Cars</string>
+    <string name="place_order">Place Order</string>
+    <string name="subscription">Subscription</string>
+    <string name="my_car">My Car</string>
+    <string name="sub_title">Select services and checkout easily</string>
+    <string name="sub_benefit">*Benefits may vary for different cars.</string>
+    <string name="description">Description</string>
+    <string name="month_sub">12 months subscription</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="make_payment">MAKE PAYMENT</string>
+    <string name="complete_pay">Complete Payment</string>
+    <string name="voucher_code">%s - Voucher Code applied</string>
+    <string name="apply_voucher_code">Apply Voucher Code</string>
+    <string name="my_address">My Address</string>
+    <string name="my_orders">My Orders</string>
+    <string name="notification">Notifications</string>
+    <string name="exclusve_priv">Exclusive privileges for this car.</string>
+    <string name="support">Help &amp; Support</string>
+    <string name="share_gomechanic">Share GoMechanic</string>
+    <string name="close">Close</string>
+    <string name="scanning">SCANNING</string>
+    <string name="error_detected">Errors detected</string>
+    <string name="run_diagnostic">RUN DIAGNOSTICS</string>
+    <string name="trending">Trending</string>
+    <string name="sub_voucher_code">Voucher Code</string>
+    <string name="recommended">Recommended</string>
+    <string name="live">LIVE</string>
+    <string name="NEW">NEW</string>
+    <string name="default_filter_text">Filtered based on Recommended Tyre Size for your car. You may always make the changes in Filters!</string>
+    <string name="sync_for_service_detail">Syncing for service detail</string>
+    <string name="sort_filter">Filters</string>
+    <string name="add_cart_text">Order at \u20B9 0 upfront payment</string>
+    <string name="enter_registration">Enter Registration Number again</string>
+    <string name="final_cost">Final cost may vary upon inspection*</string>
+    <string name="car_number_belong">Car number belongs to different car model</string>
+    <string name="chat_text">Get replies in real time</string>
+    <string name="seek_help">Seek help with registration number </string>
+    <string name="sub_footer_text">Why get your car serviced from GoMechanic</string>
+    <string name="sub_genuine">Genuine parts</string>
+    <string name="sub_warranty">Warranty</string>
+    <string name="sub_pick">Pick &amp; Drop</string>
+    <string name="sub_affordable">Affordable</string>
+    <string name="custom_add_to_cart">ADD TO CART</string>
+    <string name="custom_tyre">Custom Tyre</string>
+    <string name="filter_data_not_found">Sorry we couldn\'t find any matches</string>
+    <string name="payment_options">Payment Options</string>
+    <string name="cancel">Cancel</string>
+    <string name="redirect_to_order_history">Continue Shopping</string>
+    <string name="thank_you_for_your_order">Thank you for your order!</string>
+    <string name="saved_address">Saved Address</string>
+    <string name="failed_location">Failed to get Location</string>
+    <string name="settings">Settings</string>
+    <string name="driver_alerts">Driving Alerts</string>
+    <string name="quote_static_text">We quote an esimtate based on the inspection.</string>
+    <string name="popular_cars">Popular Cars</string>
+    <string name="genuine_parts">Genuine Parts</string>
+    <string name="warranty">Warranty</string>
+    <string name="affordable">Affordable</string>
+    <string name="know_more">Know More</string>
+    <string name="insurance_text">GoMechanic Assurance Program</string>
+    <string name="insurance_des_text">Up to \u20B9 25000 worth Insurance Protection every time you opt for a Pickup.</string>
+    <string name="add_new_car">Add New Car</string>
+    <string name="pickup_and_drop"><![CDATA[Pickup & Drop]]></string>
+    <string name="search_hint">Search Services</string>
+    <string name="your_earnings">Your Earnings</string>
+    <string name="refer_screen_title">Earn \u20B9 %s for every Friend you Refer</string>
+    <string name="refer_screen_subtitle">Get a friend to start using GoMechanic today and earn \u20B9 %s when they complete their first order.</string>
+    <string name="my_profile">My Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="purchase_subscription">Purchase Subscription</string>
+    <string name="order_history">Order History</string>
+    <string name="goapp_money">GoApp Money</string>
+    <string name="refer_and_earn">Refer And Earn</string>
+    <string name="my_account">My Account</string>
+    <string name="search_results">Search Results</string>
+    <string name="most_searched_services">Most Searched Services</string>
+    <string name="new_custom_service_title">Can’t find what you’re looking for?</string>
+    <string name="new_custom_service_message">Let us know what you’re looking for and we’ll call you back</string>
+    <string name="nickname_optional">Nick Name (Optional)</string>
+    <string name="use_current_location">Current Location</string>
+    <string name="using_gps">Using GPS</string>
+    <string name="add_address">Add Address</string>
+    <string name="change">Change</string>
+    <string name="current">current</string>
+    <string name="payment_option_cash">Pay after Service</string>
+    <string name="add_car">ADD CAR</string>
+    <string name="edit">EDIT</string>
+    <string name="name">Name</string>
+    <string name="email">email</string>
+    <string name="phone">Mobile no</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_cars">My Cars</string>
+    <string name="navigation_sos">SOS</string>
+    <string name="navigation_referral">Referral</string>
+    <string name="navigation_ongoing_order">Help</string>
+    <string name="navigation_account">Account</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="empty_selected_address">Please select address</string>
+    <string name="select_by_carmodel_or_brand">Search by CarModel or Brand</string>
+    <string name="full_address">Full Address</string>
+    <string name="enter_a_new_address">Enter A New Address</string>
+    <string name="flat_number_hint">Flat Number/ Suite/ Floor (Optional)</string>
+    <string name="shareText" translatable="false">Car due for service ? Use my referral code %s - <![CDATA[<a href=%s>%s</a>]]> to earn \u20B9 %s on signing up at GoMechanic.</string>
+    <string name="shareLinkText" translatable="false"><![CDATA[<a href=%s>%s</a>]]></string>
+    <string name="failed_conatcts_permission_message">Failed to get Read Contacts</string>
+    <string name="confirm_and_apply">Confirm &amp; apply</string>
+    <string name="read_contacts">Read Contacts</string>
+    <string name="route_to_car">Route to the car</string>
+    <string name="contacts_permission_denied_message">Looks like you denied permission for getting reading contacts.We need read contacts permission for referring contacts.Please click on Allow button to proceed.</string>
+    <string name="invite">Invite</string>
+    <string name="india_country_code" translatable="false">+91</string>
+    <string name="my_car_location">My Car location</string>
+    <string name="drive_tracking">Drive Tracking</string>
+    <string name="over_n_speeding">Over\nSpeeding</string>
+    <string name="over_speeding">Over Speeding</string>
+    <string name="economical">Economical</string>
+    <string name="non_economical">Non-Economical</string>
+    <string name="invite_your_contacts">invite your contacts</string>
+    <string name="email_address">Email Address</string>
+    <string name="dob">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="obd_rating_path" translatable="false">website/india/serviceWiseAppReview/obd</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="status">Status</string>
+    <string name="tell_us_about_yourself">Tell us about yourself</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email_address">Enter Your Email Address (Optional)</string>
+    <string name="add_referral_code_optional">Add Referral Code (Optional)</string>
+    <string name="turn_on_location">Turn on Location</string>
+    <string name="car_health_report">Health Report</string>
+    <string name="empty_name_error">Please enter your name</string>
+    <string name="empty_workshop_name_error">Please enter workshop name</string>
+    <string name="empty_workshop_number_error">Please enter workshop number</string>
+    <string name="empty_workshop_address_error">Please enter workshop address</string>
+    <string name="empty_rating_option">Please select any option</string>
+    <string name="empty_feedback">Please enter your feedback</string>
+    <string name="invalid_name_length_error">Your name should be of 4&#8211;30 characters</string>
+    <string name="invalid_name_error">Your name should not contain special characters</string>
+    <string name="invalid_workshop_error">Workshop name should not contain special characters</string>
+    <string name="empty_email_error">Please enter your email address</string>
+    <string name="invalid_email_error">Please enter valid email address</string>
+    <string name="empty_phone_error">Please enter your phone number</string>
+    <string name="send_otp_ur">We’ll send you a </string>
+    <string name="on_ur_mobile_number"> on your mobile number for verification</string>
+    <string name="four_digit_otp">4 digit OTP</string>
+    <string name="please_select_issue">Please select your issue</string>
+    <string name="empty_contact_list_error">You don\'t have any contacts</string>
+    <string name="something_went_wrong">Something Went Wrong Please Try Again</string>
+    <string name="package_includes">package includes</string>
+    <string name="enter_title_hint">Enter Title</string>
+    <string name="empty_custom_service_title_error">Please add title</string>
+    <string name="empty_custom_service_desc_error">Please add description</string>
+    <string name="custom_service_details_title">Custom Car Services</string>
+    <string name="insurance_service_title">Insurance Services</string>
+    <string name="disk_break_cleaning">Disk Break Cleaning</string>
+    <string name="order_completed">Complete</string>
+    <string name="order_cancelled">Cancelled</string>
+    <string name="online_banking_card">Pay Online (CC/DC/UPI/Wallets)</string>
+    <string name="empty_cart_title">Discard cart item?</string>
+    <string name="empty_cart_desc">Looks like your cart contains services. Do you want to discard all the current selections?</string>
+    <string name="do_u_want_delete_car">Do you really want to delete %s ?</string>
+    <string name="delete_selected_car">Delete Selected Car?</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Terms &amp; Conditions | Privacy Policy</string>
+    <string name="chat_again">Tap here to go back and re-initiate chat.</string>
+    <string name="free">FREE*</string>
+    <string name="upgrade">UPGRADE</string>
+    <string name="subscription_plus_discount">GoMechanic Plus Discount</string>
+    <string name="gomechanic_applied">GoMechanic Plus Applied!</string>
+    <string name="subscription_activated">GoMechanic Plus Activated</string>
+    <string name="assistance_in_progress">Assistance in Progress</string>
+    <string name="case_id">Case ID: %1$s</string>
+    <string name="car_pick_up_text">Your Car was Picked up by %s</string>
+    <string name="recent">Recent</string>
+    <string name="rsa_order_post">RSA Order Post</string>
+    <string name="order_number_text">Order No. %s</string>
+    <string name="fallback_text_referral_item">Want to save more? Refer your contacts</string>
+    <string name="earn">Earn More</string>
+    <string name="search_location">Search for society, landmark, locality…</string>
+    <string name="search_car_service">Search car services or accessories.</string>
+    <string name="payment_fail_order_message">Oops! Your payment did not go through. Your booking is Placed.</string>
+    <string name="payment_successful_message">Your payment is successful.</string>
+    <string name="order_place_message">Your order has been placed successfully</string>
+    <string name="static_string">We will call you before your timing slot and assign you a Service Buddy.</string>
+    <string name="reg_no">REG. NO</string>
+    <string name="year">YEAR</string>
+    <string name="kilometers">KILOMETERS</string>
+    <string name="empty_order_list_message">You have no order</string>
+    <string name="scheduled_service">Scheduled Services</string>
+    <string name="ac_service_repair">AC Service &amp; Repair</string>
+    <string name="tyres_wheel_care">Tyres &amp; Wheel Care</string>
+    <string name="cleaning_detailing">Cleaning &amp; Detailing</string>
+    <string name="denting_painting">Denting &amp; Painting</string>
+    <string name="batteries">Batteries</string>
+    <string name="insurance_claims">Insurance Claims</string>
+    <string name="custom_services">Custom Services</string>
+    <string name="light_fitment">Light &amp; Fitments</string>
+    <string name="detailing_services">Detailing Services</string>
+    <string name="welcome_to_gomechanic">Hi, Welcome to GoMechanic!</string>
+    <string name="SignUpNotes">Don’t worry your number will not be shared with anyone.</string>
+    <string name="new_order_static_timing_slot">We will call you before your timing slot and assign you a service buddy.</string>
+    <string name="new_order_your_schedule_pick_up">You have scheduled pickup for</string>
+    <string name="new_order_placed">Your Order has been successfully placed for</string>
+    <string name="images_text">Images</string>
+    <string name="order_summary_text">Order Summary</string>
+    <string name="approve_text">Approve Your Estimate</string>
+    <string name="other_location">SOME OTHER LOCATION</string>
+    <string name="enter_a_registration_number">Enter Registration Number</string>
+    <string name="enter_valid_registration_number">Enter Valid Registration Number</string>
+    <string name="enter_registration_year">Enter  Year</string>
+    <string name="enter_car_running_kilometer">Enter Kilometers</string>
+    <string name="welcome_mobile_verification">Mobile Verification</string>
+    <string name="add_now">ADD NOW</string>
+    <string name="welcome_text_1">Say Goodbye To Your Car Troubles!</string>
+    <string name="welcome_text_2">Your Car Service, At Your Fingertips!</string>
+    <string name="welcome_text_3">Live Updates &amp; Express Assistance</string>
+    <string name="welcome_text_4">Stay Home, Stay Safe</string>
+    <string name="welcome_sub_text_1">100+ Services, Repairs &amp; Products</string>
+    <string name="welcome_sub_text_2">Superfast 60-Seconds Booking</string>
+    <string name="welcome_sub_text_3">Dedicated Service Buddy At Your Service!</string>
+    <string name="welcome_sub_text_4">Doorstep Pickup &amp; Delivery</string>
+    <string name="update">Update</string>
+    <string name="invalid_year">Please enter a valid year</string>
+    <string name="invalid_registration_number">Please enter a valid registration number with 5\-10 characters but without blank spaces</string>
+    <string name="update_dialog_title">Update App</string>
+    <string name="update_dialogue_message">This is old version of app, please update app before using it</string>
+    <string name="total">Total</string>
+    <string name="order_total">Order Total</string>
+    <string name="job_card">JobCard</string>
+    <string name="chat_text_button">Chat</string>
+    <string name="item_total">Item total</string>
+    <string name="goMacPlus">GoMechanic Plus</string>
+    <string name="goMacPlusDes">Valid for a period of 12 months | %s</string>
+    <string name="coupon_discount">Coupon discount</string>
+    <string name="delivered_order_message">Delivered on %s</string>
+    <string name="estimate">Download Estimate</string>
+    <string name="filters">Filters</string>
+    <string name="clear_all">Clear All</string>
+    <string name="download_completed">Download Completed</string>
+    <string name="download_failed">Download Failed</string>
+    <string name="coupon_code_hint">Enter Coupon Code Here</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="apply_coupon_goapp_money">Apply Coupon | GoApp Money</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="goapp_money_coupon_text">GoApp Money - \u20B9 %s</string>
+    <string name="goapp_money_selected">GoApp Money Selected</string>
+    <string name="earn_more_goapp_money">Earn More GoApp Money</string>
+    <string name="goapp_money_is_0">Your GoApp Money is 0</string>
+    <string name="goapp_money_info_text">50% of GoApp Money or bill amount can be used in an order</string>
+    <string name="get_updates_on_whatsapp">Get updates on WhatsApp</string>
+    <string name="download_in_progress">Download in progress</string>
+    <string name="download_jobcard_title">Download Order %s JobCard</string>
+    <string name="download_estimate_title">Download Order %s Estimate</string>
+    <string name="download_bill_title">Ready. Set. Drive!</string>
+    <string name="download_bill_sub_title">Tap To Download Your Bill</string>
+    <string name="download_health_card_title">Your Car\'s Health Card Is Ready</string>
+    <string name="download_health_card_sub_title">Tap To View &amp; Download</string>
+    <string name="sorry">Sorry,</string>
+    <string name="empty_order_message">It seems like you don\'t have ongoing /completed orders.</string>
+    <string name="book_a_service">Book A Service</string>
+    <string name="app_version_name">App Version : %s</string>
+    <string name="error_type_token_expire">Token Expire</string>
+    <string name="cant_delete_prime_Car">You can not delete car.</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="selected">Selected</string>
+    <string name="what_happen_next">WHAT HAPPENS NEXT?</string>
+    <string name="at_workshop">At Workshop</string>
+    <string name="your_service_buddy">Your Service Buddy</string>
+    <string name="approve_your_estimate">APPROVE YOUR ESTIMATE</string>
+    <string name="share_your_doc">SHARE YOUR DOCUMENTS</string>
+    <string name="order_status_msg">Your car has reached the workshop, for further assistance we have assigned a dedicated service buddy.</string>
+    <string name="book_your_status">Your Booking Status:</string>
+    <string name="select">Select</string>
+    <string name="prime_car_selected">Selected</string>
+    <string name="ooops">Ooops!</string>
+    <string name="chat">Chat</string>
+    <string name="tab_to_send_msg">Tap to send a quick message</string>
+    <string name="contacts">Contacts</string>
+    <string name="today">Today</string>
+    <string name="sending">Sending &#8230;</string>
+    <string name="type_msg">Type a message</string>
+    <string name="already_selected">%s already exists</string>
+    <string name="already_select_car_update">Update Car</string>
+    <string name="CUSTOM_SERVICE_EVENT" translatable="false">CUSTOM_SERVICE_EVENT</string>
+    <string name="new_order">"New Order"</string>
+    <string name="update_city_id_and_car_id">Update CityID and CarID</string>
+    <string name="update_car_id_with_api">Update CarID with API</string>
+    <string name="internet_missing_msg">Slow or no internet connection Check your internet settings.</string>
+    <string name="chat_with_us">Chat with us</string>
+    <string name="chat_with">CHAT WITH US</string>
+    <string name="Consult_title">Need more help ?</string>
+    <string name="Chat_with_us">Chat with us</string>
+    <string name="months_warranty_text">• %s months warranty</string>
+    <string name="bullet_with_size_text">• Size - %s</string>
+    <string name="bullet_with_text" translatable="false">• %s</string>
+    <string name="years_warranty_text">• %s years warranty</string>
+    <string name="payments_offer">Payment offers</string>
+    <string name="available_coupon_offer">Available Offers</string>
+    <string name="unavailable_coupon_offer">Unavailable Offers</string>
+    <string name="go_app_money_offer">GoApp Money</string>
+    <string name="view_tc">View T&amp;C</string>
+    <string name="help_topic">Frequently Asked Questions</string>
+    <string name="help">Help</string>
+    <string name="faq_link">FAQs &amp; LINKs</string>
+    <string name="get_from_order">Need help with this order?</string>
+    <string name="tracking_details">Tracking details will be available once your car is picked up</string>
+    <string name="track_order_text">Track Order</string>
+    <string name="book_again">BOOK AGAIN</string>
+    <string name="estimates">Estimate</string>
+    <string name="call">CALL</string>
+    <string name="approve">Approve</string>
+    <string name="pending">pending</string>
+    <string name="jobcard_text">Jobcard</string>
+    <string name="rate_order">Rate Order</string>
+    <string name="download_jobcard">Download Jobcard</string>
+    <string name="your_booking_status">Your Booking Status:</string>
+    <string name="work_in_progress">Work in progress</string>
+    <string name="order_placed">Order placed</string>
+    <string name="your_progress_details">Progress details will be available once car reaches the workshop.</string>
+    <string name="waiting_approval_static_text">You can approve over WhatsApp or via Call.</string>
+    <string name="tracking_payment">Tracking, payment &amp; delivery related questions for current status</string>
+    <string name="ready_for_delivery">Ready for Delivery</string>
+    <string name="help_and_support">Help &amp; Support</string>
+    <string name="help_and_supports">Help &amp; Support</string>
+    <string name="personal_support_contact_details_text">Chat or call us for an issue</string>
+    <string name="chat_assistance">Customer Care</string>
+    <string name="add_boosters">Checkout Service Boosters</string>
+    <string name="chat_assist">Available 10AM - 7PM</string>
+    <string name="performance_text">For better performance and mileage</string>
+    <string name="cr_assign">Service Buddy</string>
+    <string name="customer_care_text">Customer Care</string>
+    <string name="support_location_path" translatable="false">support/supportchat/%s/chat</string>
+    <string name="faq_path" translatable="false">support/docs/faq_c/order</string>
+    <string name="faq_order_detail_status" translatable="false">order_status_data/</string>
+    <string name="order_path" translatable="false">orders/order_statuses</string>
+    <string name="care_number" translatable="false">support/care_number</string>
+    <string name="already_have_an_account" translatable="false">Go<font color='#ef403e'>Mechanic</font></string>
+    <string name="pick_up_scheduled">Pick Up Scheduled</string>
+    <string name="blogs_heading">Blog Posts &amp; Articles</string>
+    <string name="blogs_subheading">Get to know your car, a bit more</string>
+    <string name="suppor_location_path1" translatable="false">support/supportchat/%s</string>
+    <string name="what_s_the_issue">What\'s the issue?</string>
+    <string name="enter_pick_up_location">Enter Pick-up location</string>
+    <string name="write_about_the_issue_here">Additional Instructions? Let us know.</string>
+    <string name="enter_drop_location">Enter drop location (optional)</string>
+    <string name="out_of_petrol">Out of petrol</string>
+    <string name="out_of_diesel">Out of diesel</string>
+    <string name="need_repair">Need Repair</string>
+    <string name="spare_wheel">Spare Wheel</string>
+    <string name="enter_registration_number">Enter Registration Number</string>
+    <string name="white_car_color">white</string>
+    <string name="low_to_high">LOW TO HIGH</string>
+    <string name="high_to_low">HIGH TO LOW</string>
+    <string name="what_s_included">What\'s Included</string>
+    <string name="specification_name">Width</string>
+    <string name="specification_value" translatable="false">55</string>
+    <string name="specification_rim">Rim </string>
+    <string name="rim_value" translatable="false">55</string>
+    <string name="specification_Size">Size</string>
+    <string name="heading">Specifications</string>
+    <string name="profile_value" translatable="false">55</string>
+    <string name="specification_profile">Profile</string>
+    <string name="important_note">Important Note</string>
+    <string name="introducing">Introducing</string>
+    <string name="go">Go</string>
+    <string name="mechanic">Mechanic</string>
+    <string name="service_access_placeholder">Unlimited Access to all Services</string>
+    <string name="service_access_subtext">Pay once and get unlimited access for %1$d months to all services starting from %2$d+</string>
+    <string name="benefits">Benefits</string>
+    <string name="view_all_faq_s">View FAQs</string>
+    <string name="faq">FAQs</string>
+    <string name="final_price" translatable="false">\u20B9 %1$d</string>
+    <string name="sub_strike_through" translatable="false"><strike>\u20B9 999</strike></string>
+    <string name="sub_price" translatable="false">\u20B9 499</string>
+    <string name="car_name_fuel" translatable="false">%1$s %2$s</string>
+    <string name="rsa_problem_placeholder" translatable="false">%1$s - %2$s</string>
+    <string name="emergency_road_side_assistance">Emergency Roadside Assistance</string>
+    <string name="more_tyres_for_same_size">More Tyres for same size</string>
+    <string name="more_tyres">More Tyres</string>
+    <string name="rsa_roadzen_userid" translatable="false">rsa/roadzen/%s/</string>
+    <string name="obd_firebase_url" translatable="false">https://gomechanic-obd.firebaseio.com/</string>
+    <string name="rsa_roadzen_cases" translatable="false">rsa/roadzen_cases/%s</string>
+    <string name="initial_order" translatable="false">initial_order</string>
+    <string name="rsa_order_statuses" translatable="false">rsa/order_statuses</string>
+    <string name="rsa_help_line" translatable="false">rsa/care_number</string>
+    <string name="chat_quick_message_for_customer" translatable="false">support/docs/supportchat/quick_messages_customer</string>
+    <string name="service_completed_thanks_ordering">Your service stands completed. \nThanks for ordering.</string>
+    <string name="still_need_help_chat_with_us">Still need help? Chat with us.</string>
+    <string name="enter_voucher_code">Enter voucher code</string>
+    <string name="enter_registration_no">Enter Registration number</string>
+    <string name="manage_your_car">Manage Your Car</string>
+    <string name="gomechanic_benefits">GoMechanic Benefits</string>
+    <string name="avail_gomechanic_plus_for_12_months">Avail GoMechanic Plus for 12 months</string>
+    <string name="subscription_benefits_have_been_added_to_services">Subscription benefits have been added to services</string>
+    <string name="gomechanic_plus_activated_start">GoMechanic</string>
+    <string name="gomechanic_plus_activated_end">Activated!</string>
+    <string name="car_selected_subs">Car selected from subscription</string>
+    <string name="cart_sub_info">GoMechanic Plus discount, as detailed in Subscription section, is applied!</string>
+    <string name="whatsAppText">Whatsapp is not available, please call the CR</string>
+    <string name="placed_order_successfully">Placed order successfully</string>
+    <string name="sorry_some_error_occured">Sorry, some error occurred</string>
+    <string name="location_permission_needed">Allow Maps to access your location while using the app?</string>
+    <string name="please_provide_location_permission">Your current location will be displayed on the map and used to save to your address.</string>
+    <string name="ok">OK</string>
+    <string name="current_location">YOUR CURRENT LOCATION</string>
+    <string name="view_order_summary">VIEW ORDER SUMMARY</string>
+    <string name="order_id">ORDER ID : %s</string>
+    <string name="order_id_small">Order ID : %s</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="please_provide_location_setting">Please provide location settings</string>
+    <string name="please_provide_location">Please provide location permission</string>
+    <string name="executive_typing">Executive is typing &#8230;</string>
+    <string name="sorry_chat_is_closed">Sorry,this chat thread is now closed.</string>
+    <string name="repair_cost_txt">Cost is provided after inspection*</string>
+    <string name="placed_order">placedorder</string>
+    <string name="eg_address">e.g. Huda City Centre, Sector 41</string>
+    <string name="update_prime_car">updateprimecar</string>
+    <string name="year_warranty">%s years warranty</string>
+    <string name="months_warranty">%s months warranty</string>
+    <string name="filter_cat1">Brand</string>
+    <string name="filter_cat2">Width</string>
+    <string name="filter_cat3">Rim Diameter</string>
+    <string name="filter_cat4">Type</string>
+    <string name="filter_cat5">Size</string>
+    <string name="filter_cat6">Price Range</string>
+    <string name="filter_cat7">Tyre Profile</string>
+    <string name="phone_number_not_available">Phone number not available</string>
+    <string name="subscription_coupon_code_apply">Subs coupon code apply</string>
+    <string name="coupon_code_apply">Coupon code apply</string>
+    <string name="do_u_want_remove_coupon">Do you really want to remove this coupon ?</string>
+    <string name="negative_with_rs" translatable="false">- \u20B9 %s</string>
+    <string name="try_again">Try Again</string>
+    <string name="failed_to_register">Failed To Register</string>
+    <string name="subs_your_car">We are subscribing your car.</string>
+    <string name="exclusive_saving_benefit">Exclusive savings\nand benefits</string>
+    <string name="pay_once_get_access_12_month">Pay once and get access for 12 months</string>
+    <string name="here_what_you_get">Here\'s what you get:</string>
+    <string name="congrats">Congratulations</string>
+    <string name="availed_for">Availed for</string>
+    <string name="str_vs_str" translatable="false">%s %s</string>
+    <string name="close_btn">Close</string>
+    <string name="tap_to_downloads">Tap to download previous documents</string>
+    <string name="invoice_text">Invoice</string>
+    <string name="to_be_paid">To be Paid</string>
+    <string name="already_paid">Already Paid</string>
+    <string name="your_progress">Your progress</string>
+    <string name="thanks_approve_estimate">Thanks for approving the estimate!</string>
+    <string name="your_car_under_service_text">Wo-hoo! Your Cars Repair work is in Progress.</string>
+    <string name="service_buddy"> For any assistance, please connect with dedicated Service Buddy:</string>
+    <string name="order_pick_up"> Your Order has been picked up around :</string>
+    <string name="call_service_buddy">CALL SERVICE BUDDY</string>
+    <string name="share_referral_code">Share your referral code</string>
+    <string name="share_via_whatsapp">Share via WhatsApp</string>
+    <string name="activated_gomec_plus">Activated GoMechanic Plus! </string>
+    <string name="valid_for_12_month">Valid for 12 months</string>
+    <string name="subs_activation_in_progress">Subscription activation in progress!</string>
+    <string name="subs_activation_under_process">Your subscription request is under process. We will update shortly! As always you can ping us on help &amp; support for any issues.</string>
+    <string name="sorry_subs">Sorry</string>
+    <string name="subs_in_process">Activation in progress</string>
+    <string name="please_try_again"> Please try again</string>
+    <string name="proction_text8">Insurance coverage is not applicable on car services that have been cancelled.</string>
+    <string name="add">Add</string>
+    <string name="added">Added</string>
+    <string name="confirm">Confirm</string>
+    <string name="popular_service">Popular Services</string>
+    <string name="popular_subheading">Most recommended services for you</string>
+    <string name="select_date_and_time">Select Date and time slot</string>
+    <string name="payment_mode">Pay</string>
+    <string name="pay_via_cash_after_service">Pay Via Cash After Service</string>
+    <string name="enter_workshop_name">Enter the workshop name</string>
+    <string name="enter_workshop_address">Enter the workshop address</string>
+    <string name="select_car">Select Car</string>
+    <string name="remove">Remove</string>
+    <string name="update_address">update address</string>
+    <string name="refer_earn">Earn ₹ 5000 on successful \nreferral. T&amp;Cs apply.</string>
+    <string name="workshop_name">Workshop Name</string>
+    <string name="workshop_address">Workshop Address</string>
+    <string name="workshop_phone">Workshop Phone Number</string>
+    <string name="select_dob">Select date of birth</string>
+    <string name="search_your_location">Search your location</string>
+    <string name="change_service_address">CHANGE SERVICE ADDRESS</string>
+    <string name="refer_workshop">REFER WORKSHOP IN THIS AREA</string>
+    <string name="workshop_not_available">Unfortunately, our workshops aren’t available in this area owing to Covid-19.</string>
+    <string name="enter_address_details">Enter address details</string>
+    <string name="your_location">Your Location</string>
+    <string name="complete_address">Complete Address (Optional)</string>
+    <string name="floor_optional">Floor (Optional)</string>
+    <string name="tag_this_location_for_later">Tag this location for later</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="speed">Speed</string>
+    <string name="hotel">Hotel</string>
+    <string name="other">Other</string>
+    <string name="rating_event_back" translatable="false">rating_event_back</string>
+    <string name="workshop_event_back" translatable="false">workshop_event_back</string>
+    <string name="share_title">"Have you tried the GoMechanic app? It's simple to use services like Scheduled Service, AC Service, Car Detailing, Insurance, Tyres, Batteries&#8230;"</string>
+    <string name="save_address">Save Address</string>
+    <string name="accessories">Accessories</string>
+    <string name="explore_categories">Explore Categories</string>
+    <string name="top_products">Popular Products</string>
+    <string name="filter_update">filter_update</string>
+    <string name="bestseller">BESTSELLER</string>
+    <string name="inclusive_of_taxes">inclusive of all taxes</string>
+    <string name="reviews">%s reviews</string>
+    <string name="specs">Specs &amp; Details</string>
+    <string name="shop_tyres">Shop &amp; install Tyres</string>
+    <string name="variant">Variant</string>
+    <string name="fetching_detail_shortly">We are fetching order details shortly.</string>
+    <string name="paid_via_str">Paid via %s</string>
+    <string name="paid_on_str">Paid on %s</string>
+    <string name="cancelled_on_str">Cancelled on %s</string>
+    <string name="delivered_on_str">Delivered on %s</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="completed">Completed</string>
+    <string name="your_car_was_delivered">Delivered</string>
+    <string name="your_order_was_cancelled">Cancelled</string>
+    <string name="paid_via_na">Paid via NA</string>
+    <string name="no_connection">Internet connection not available</string>
+    <string name="default_error_network">We are experiencing problem to connect to our server, please try again later&#8230;</string>
+    <string name="gomec_gyan">GoMechanic Gyaan</string>
+    <string name="gomec_gyan_daily_dose">Your Daily Dose of Automobile News</string>
+    <string name="see_all">See All</string>
+    <string name="blog">Blog</string>
+    <string name="news">News</string>
+    <string name="gomec_news">GoMechanic News</string>
+    <string name="gomec_blog">GoMechanic Blog</string>
+    <string name="custom_new">custom_new</string>
+    <string name="one_str" translatable="false">1</string>
+    <string name="includes">Includes</string>
+    <string name="insurance_paid" translatable="false">insurance_paid</string>
+    <string name="custom_new_paid" translatable="false">custom_new_paid</string>
+    <string name="insurance">insurance</string>
+    <string name="goMechanic_suraksha">GoMechanic Suraksha</string>
+    <string name="select_issue">Select Issue</string>
+    <string name="you_saved_item_rs">, You saved \u20B9 %s extra</string>
+    <string name="item_saved_rs">Item %s %s</string>
+    <string name="miscellaneous_image_path" translatable="false">miscellaneous/images_v2/%s</string>
+    <string name="help_with_recent_order">"HELP WITH RECENT ORDER"</string>
+    <string name="monsoon_protect_service">GoMechanic Monsoon Shield</string>
+    <string name="protect_scar_part_with_tailored_service">Protect your Car Parts with Tailored Services</string>
+    <string name="permission_for_contact_save">The app wants to access contact permission for a seamless experience. Allow us to save the same?</string>
+    <string name="gomechanic_service_expert">Gomechanic Service Expert</string>
+    <string name="gomechanic_service_expert_with_crname">Service Buddy - %s</string>
+    <string name="gomechanic_phone" translatable="false">01141160520</string>
+    <string name="gomechanic_email" translatable="false">info@gomechanic.in</string>
+    <string name="gomechanic_repair_service">Car Repair Services</string>
+    <string name="status_colon">Status :</string>
+    <string name="last_moved_colon">Last Moved :</string>
+    <string name="trip_stats">Trip Statistics</string>
+    <string name="distance">Distance</string>
+    <string name="drive_time">Drive Time</string>
+    <string name="fuel_efficiency">Fuel Mileage</string>
+    <string name="trip_stats_text">Your recent driving summary and trip details</string>
+    <string name="trip_error_text">1 Error found, tap on how to improve to avoid any future breakdown.  </string>
+    <string name="health_report">Health Report</string>
+    <string name="how_to_improve">How to improve?</string>
+    <string name="engine">Engine</string>
+    <string name="transmission">Transmission</string>
+    <string name="auxilary_emission_controls">Auxiliary Emission Controls</string>
+    <string name="vechicle_speed_control">Vehicle Speed &amp; Idle Control System</string>
+    <string name="fule_air_metering">Fuel &amp; Air Metering</string>
+    <string name="battery">Battery</string>
+    <string name="ac">AC</string>
+    <string name="double_dash" translatable="false">--</string>
+    <string name="steering">Steering</string>
+    <string name="view_all">View All</string>
+    <string name="view_list">View List</string>
+    <string name="emergency">Emergency</string>
+    <string name="self_diagnose">Self Diagnose</string>
+    <string name="location_header">Let us curate the best prices for you.</string>
+    <string name="location_sub_header">Help us with your Location</string>
+    <string name="update_order_details">Updating Order Details…</string>
+    <string name="get_update_whatsapp">Get updates on WhatsApp</string>
+    <string name="subs_discount">Subscription Discount</string>
+    <string name="for_assistance_please_contact">For any assistance, please connect :</string>
+    <string name="insurance_str">Insurance</string>
+    <string name="overall_rating_of_brand">Overall rating of %s %s</string>
+    <string name="see_what_expert_have_to_say">See what our experts have to say:</string>
+    <string name="gomec_expert">GoMechanic Expert</string>
+    <string name="gomec_expert_rating">GoMechanic Expert Rating</string>
+    <string name="expert_rating_with_five" translatable="false">%s/5</string>
+    <string name="rating_review">Ratings &amp; Reviews</string>
+    <string name="longevity">Longevity</string>
+    <string name="more_tyre_from_brand">More Tyres from Brand</string>
+    <string name="maintenance_rating">Maintenance Rating </string>
+    <string name="warranty_rating">Warranty Rating </string>
+    <string name="performance_rating">Performance Rating</string>
+    <string name="value_for_money">Value for money</string>
+    <string name="size">Size</string>
+    <string name="brand">Brand</string>
+    <string name="brands">Brands</string>
+    <string name="select_tyre_brand">Please select tyre brand or size.</string>
+    <string name="select_service">Please select service.</string>
+    <string name="select_tyre_size">Please select tyre size.</string>
+    <string name="cnt_find_right_tyre">Can’t Find the Right Tyre?</string>
+    <string name="add_custom_request">Add a Custom Request</string>
+    <string name="you_won">You won</string>
+    <string name="update_go_app_money" translatable="false">update_go_app_money</string>
+    <string name="congrats_with_symbol">Congratulations!</string>
+    <string name="goapp_money_cashback">GoApp Money Cashback</string>
+    <string name="check_out">Checkout</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="cart_value">Cart Value</string>
+    <string name="number_slot_available">(%s slots available)</string>
+    <string name="pickup_time_slot">Pick Time Slot</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="select_preferred_date_time">Select your preferred Date &amp; Time</string>
+    <string name="your_preferred_date_time">Your preferred Date &amp; Time</string>
+    <string name="my_trips_statistics">My trips statistics</string>
+    <string name="unlock_now">Unlock now</string>
+    <string name="no_matter_where_you_are">no matter where you are.</string>
+    <string name="remotely_keep_track_of_your_car">Remotely keep track of your car,</string>
+    <string name="self_health_inspection">Self Health Inspection</string>
+    <string name="remotely_keep_track_of_your_car_s_vital">Remotely keep track of your car’s vital</string>
+    <string name="parameters_and_maintenance_needs_before">parameters and maintenance needs before</string>
+    <string name="breakdown_occurs">breakdown occurs.</string>
+    <string name="create_a_geofence">Create a geofence.</string>
+    <string name="anti_theft_non_obd_desc">Protect your car by setting an Anti-Theft Alarm on the App &amp; get notified if your car is driven within that time frame.</string>
+    <string name="emergency_contact_non_obd_desc">If your car comes across an accident, GoConnect automatically alerts emergency contacts. </string>
+    <string name="speed_alert_non_obd_desc">If your car comes across an accident, GoConnect automatically alerts emergency contacts. </string>
+    <string name="geofencing">Geo-Fencing</string>
+    <string name="general_alerts">General Alerts</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="anti_theft_alert">Anti-Theft Alert</string>
+    <string name="geofence">GeoFence</string>
+    <string name="speed_alerts">Speed Alerts</string>
+    <string name="stay_updated_about_car_s_movement">Stay updated about car’s movement.</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="non_obd_home_screen_title1">All you need to know about your car, at your fingertips!</string>
+    <string name="non_obd_home_screen_title2">Locate your car\'s OBD port and follow these simple steps</string>
+    <string name="non_obd_home_screen_title3">Get-Set-Go in 3 Easy Steps!</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="plug_the_device_into_your_car_wait_for_it_to_configure">Plug the GoConnect device.</string>
+    <string name="go_to_my_car_section_on_the_gomechaninc_app">Head to My Car section in the App.</string>
+    <string name="within_minutes_have_everything_on_your_fingertips">Initiate GoConnect pairing on the App.</string>
+    <string name="ratings_amp_reviews"><![CDATA[Ratings & Reviews]]></string>
+    <string name="_23_ratings" translatable="false">23 ratings</string>
+    <string name="_4_3" translatable="false">4.3</string>
+    <string name="ratings">%s ratings</string>
+    <string name="frequently_asked_questions_faqs">Frequently Asked Questions (FAQs)</string>
+    <string name="some_other_features">Other features</string>
+    <string name="goconnect">GoConnect</string>
+    <string name="an_advanced_car_tracking">An advanced car tracking solution on your mobile which combines with GoConnect OBD GPS device in your car to make your car a smart car and you a smarter driver.</string>
+    <string name="tracking">Tracking</string>
+    <string name="my_trips">My Trips</string>
+    <string name="driver_rating">Driver Rating</string>
+    <string name="call_ncustomer_care">Call \nCustomer care</string>
+    <string name="nearby_nworkshop">Nearby \nWorkshop</string>
+    <string name="a_notification_has_been_sent_to_your_saved_nemergency_contacts_they_might_reach_out_soon">A notification has been sent to your saved \nemergency contacts. They might reach out soon.</string>
+    <string name="distance_covered">Distance Covered</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="sudden_n_braking">Sudden\nBraking</string>
+    <string name="sudden_braking">Sudden Braking</string>
+    <string name="engine_idling">Engine\nIdling</string>
+    <string name="over_speed">Over\nSpeed</string>
+    <string name="max_speed">Max Speed</string>
+    <string name="_80_km_hr" translatable="false">80 km/hr</string>
+    <string name="_120_km_hr" translatable="false">120 km/hr</string>
+    <string name="key_features">Key Features</string>
+    <string name="vehicle_nhealth_report">Health Report</string>
+    <string name="keep_track_of_your_vehicle">Keep a track of your car\'s vital stats such as engine\'s health, emissions &amp; much more on-the-go.</string>
+    <string name="get_real_time_location">Stay connected with your car with live GPS tracking and real-time speed monitoring.</string>
+    <string name="location_tracking_nand_notifications">Real-Time Location </string>
+    <string name="improve_driving_nbehavior">Driving Behaviour</string>
+    <string name="review_your_driving">Review your driving behaviour with trip summary and weekly analysis with tips to improve.</string>
+    <string name="goconnect_s_smart">Get crucial emergency alerts right on your phone and enjoy the peace of mind you deserve.</string>
+    <string name="get_timely_alerts">Smart Alerts</string>
+    <string name="when_the_vehicle">Define a perimeter and track your vehicle leaving or entering that specified zone.</string>
+    <string name="car_anti_theft_nalarm_on_phone">Anti-Theft Alarm</string>
+    <string name="protect_your_car_by_setting">Set a time frame as per your requirement and get alerted if you car is driven off-hours. </string>
+    <string name="s_km_l" translatable="false">%s km/l</string>
+    <string name="s_km_hr" translatable="false">%s km/hr</string>
+    <string name="s_kms" translatable="false">%s kms</string>
+    <string name="s_h_s_m" translatable="false">%s m</string>
+    <string name="km_l" translatable="false">km/l</string>
+    <string name="km_hr" translatable="false">km/hr</string>
+    <string name="km" translatable="false">km</string>
+    <string name="h_s_m" translatable="false">m</string>
+    <string name="s_s" translatable="false">%s - %s</string>
+    <string name="recent_statistics">Recent Statistics</string>
+    <string name="make_sure_connection">Make sure your car has an OBD device \nconnection configured.</string>
+    <string name="get_connection">Get Connection</string>
+    <string name="health_report_msg">Get critical diagnostics alerts to avoid future breakdowns. <b>SAVE BIG</b> on fuel &amp; maintenance.</string>
+    <string name="obd_connection_not_found">OBD Device Not Installed</string>
+    <string name="triple_dash" translatable="false">- - -</string>
+    <string name="_100_5_km" translatable="false">100.5 km</string>
+    <string name="_2_h_20_m" translatable="false">2 h 20 m</string>
+    <string name="_20_21_km_l" translatable="false">20.21 km/l</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="edit_quantity">Edit Quantity</string>
+    <string name="available">Available</string>
+    <string name="see_more_str">See more</string>
+    <string name="total_price_rupee_symbol_value" formatted="false">Total Price - \u20B9 %s</string><!--\u20B9 %s-->
+    <string name="cart_payment_bottom_notes">Note: Post placing the order, we will be calling you shortly to assign a workshop &amp; a service buddy to take care of your car woes.</string>
+    <string name="reschedule_bottom_notes">Note: You can reschedule your service only once.</string>
+    <string name="our_customer_rating">Customer Reviews Near You</string>
+    <string name="rating_review_list_firebase_default" translatable="false">website/india/categoryWiseAppReviews/%s/reviews</string>
+    <string name="rating_review_list_firebase_cat_id" translatable="false">website/india/categoryWiseAppReviews/%s/%s/reviews</string>
+    <string name="view_detail_bill">View Detailed Bill</string>
+    <string name="qty_with_count">Qty: %s</string>
+    <string name="subscription_discount">Subscription Discount</string>
+    <string name="hr_12_56_9890" translatable="false">HR 12 56 9890</string>
+    <string name="petrol">Petrol</string>
+    <string name="pay_online_goapp_money">₹ %s GoApp Money Cashback on Online Payment</string>
+    <string name="gomech_suraksha">GoMechanic Suraksha</string>
+    <string name="smart_service_deliver_safely">Smart Service.\nDelivered Safely.</string>
+    <string name="sanitised_service_center">Sanitised\nService Centers</string>
+    <string name="temperature_checked_mechanic">Temperature\nChecked Mechanics</string>
+    <string name="get_gomechanic_insurance">Get GoMechanic Insurance worth \u20B9 25000/-</string>
+    <string name="with_online_payments">with online payments</string>
+    <string name="cnt_find_right_service">Can\'t Find the Right Service?</string>
+    <string name="add_custom_service">Add a Custom Service</string>
+    <string name="custom_issue">Custom Issues</string>
+    <string name="parts_replacement">Parts Replacement</string>
+    <string name="Select_your_car">Select Your Car</string>
+    <string name="search_by_car_model_or_brand">Search by Car Model or Brand</string>
+    <string name="by_brands">By brands</string>
+    <string name="by_popular_cars">By Popular cars</string>
+    <string name="login">Login</string>
+    <string name="already_have_a_account">Already have an account?</string>
+    <string name="is_car_a_commercial_taxi_cab_optional">Is your Car a Commercial Taxi / Vehicle? (Optional)</string>
+    <string name="select_model">Select Model</string>
+    <string name="almost_there">Almost There! Sign in to Continue.</string>
+    <string name="login_or_sign_up_to_proceed">Login/SignUp using phone number</string>
+    <string name="select_location_txt">Select the Location you want to see the Services for?</string>
+    <string name="preferred_fuel_type">Your preferred fuel type</string>
+    <string name="or">or</string>
+    <string name="continue_to_checkout">continue to checkout</string>
+    <string name="continue_to_signup_using_your_referral_code">Continue to signup using your referral code</string>
+    <string name="signup">Signup</string>
+    <string name="signin">Sign In</string>
+    <string name="hi">Hi! Welcome to GoMechanic</string>
+    <string name="login_signup_using">Login/ Signup using</string>
+    <string name="verified_by">Verified by</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="saved_in_your_cart">Saved in your cart</string>
+    <string name="obd_restore_defaults">Restore defaults</string>
+    <string name="obd_save_changes">Save changes</string>
+    <string name="obd_saving">Saving...</string>
+    <string name="obd_alert_fatigue">Fatigue Time</string>
+    <string name="obd_alert_harsh_acc">Harsh Acceleration</string>
+    <string name="obd_alert_harsh_braking">Harsh Braking</string>
+    <string name="obd_alert_idle_time">Idle Time</string>
+    <string name="over_n_revving">Over\nRevving</string>
+    <string name="over_revving">Over Revving</string>
+    <string name="obd_alert_key_harsh_acc" translatable="false">ha</string>
+    <string name="obd_alert_key_harsh_braking" translatable="false">hb</string>
+    <string name="obd_alert_unit_fatigue" translatable="false">hours</string>
+    <string name="obd_alert_unit_harsh_acc" translatable="false">Km/s</string>
+    <string name="obd_alert_unit_harsh_braking" translatable="false">Km/s</string>
+    <string name="obd_alert_unit_idle_time" translatable="false">minutes</string>
+    <string name="obd_alert_unit_over_rev" translatable="false">rpm</string>
+    <string name="obd_alert_set_value_between_text">Set value between 0–30</string>
+    <string name="obd_speed_alert_set_value_between_text">Set value between %s–%s</string>
+    <string name="_30" translatable="false">30</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="view_status">View Status</string>
+    <string name="number_with_item">%s Service Added</string>
+    <string name="number_with_items">%s Services Added</string>
+    <string name="email_address_optional">Email Address (Optional)</string>
+    <string name="express_checkout">Express checkout</string>
+    <string name="continue_to_checkout_without_giving_additional_information">Continue to checkout without giving additional information.</string>
+    <string name="continue_to_select_car">Continue to Select Car</string>
+    <string name="let_s_set_up_your_account_in_2_easy_steps">Let\'s set up your account in 2 easy steps</string>
+    <string name="set_up_account_in_one_step">Let\'s set up your account in 1 step.</string>
+    <string name="sign_in_to_continue">Sign in to Continue.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="slot_fee_rebate">Slot Fee/Rebate</string>
+    <string name="error">ERROR</string>
+    <string name="last_booked_in_s">Last booked in %s</string>
+    <string name="re_book">re-book</string>
+    <string name="retry_payment">RETRY PAYMENT</string>
+    <string name="payment_failed_retry_again">Pay Online and Get Insurance Worth ₹ 25000. Retry your Payment.</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="uhoh_payment_failed">Uh Oh! Payment Failed</string>
+    <string name="repayment_sub_header">It seems like your payment didn’t go through. Don’t worry! We have gone ahead and placed your order.</string>
+    <string name="note_repayment">Note: Your payment mode has been changed to Pay after service. Alternatively, you can still revise your payment or pay after delivery.</string>
+    <string name="order_placed_success">ORDER placed Successfully</string>
+    <string name="see_previous_updates">See Previous Updates</string>
+    <string name="previous_order_strip_title">Hit green arrow to view previous updates</string>
+    <string name="job_completed">Job Completed</string>
+    <string name="order_detail_heading_combined" translatable="false">%s, %s</string>
+    <string name="awaiting_approval">Awaiting Approval</string>
+    <string name="coupon_remaining_amount_text">Add \u20B9 %s more to avail this offer</string>
+    <string name="language">Language</string>
+    <string name="change_language">CHANGE LANGUAGE</string>
+    <string name="choose_language">Choose a language</string>
+    <string name="top_service">Top Services</string>
+    <string name="recent_search">Recent Searches</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="s_km" translatable="false">%s km</string>
+    <string name="s_min" translatable="false">%s min</string>
+    <string name="_50" translatable="false">50</string>
+    <string name="max_range">Max Range 10000 m</string>
+    <string name="geofence_empty">Geofence alert is empty</string>
+    <string name="geofence_added">Geofence added successfully.</string>
+    <string name="geofence_updated">Geofence updated successfully.</string>
+    <string name="geofence_deleted">Geofence deleted successfully.</string>
+    <string name="fence_radius">Fence Radius</string>
+    <string name="select_range">Select Range</string>
+    <string name="receive_alerts">Receive Alerts</string>
+    <string name="drive_in">Drive In</string>
+    <string name="obd_auxiliary">Auxiliary Emission</string>
+    <string name="obd_transmission">Transmission</string>
+    <string name="obd_speed">Speed Control</string>
+    <string name="obd_fuel">Fuel &amp; Air \nMetering</string>
+    <string name="drive_out">Drive Out</string>
+    <string name="set">Set</string>
+    <string name="edit_phone">edit phone</string>
+    <string name="auto_verifying">Auto verifying %s</string>
+    <string name="frequently_ask_question">Frequently Asked Questions</string>
+    <string name="hassle_free_online_payments">Hassle free\nOnline Payments</string>
+    <string name="dedicated_service_buddy">Dedicated\nService Buddy</string>
+    <string name="ontime_pickup_drop">On-Time\nPickup &amp; Drop</string>
+    <string name="current_loc">Current Location</string>
+    <string name="drop_loc">Drop Location</string>
+    <string name="estimate_send_whatssapp_text">Estimate shared over WhatsApp, you can \n approve over WhatsApp or via Call.</string>
+    <string name="estimate_send_whatsapp_text">Estimate shared over WhatsApp, you can \n approve over WhatsApp or via Call.</string>
+    <string name="user_profile_update_toast">User profile updated successfully</string>
+    <string name="your_car_has_reached_workshop">Your Car has reached workshop. We\'ll begin the work shortly!</string>
+    <string name="flat_bed_towing">Flat-Bed towing</string>
+    <string name="wheel_lift_towing">Wheel-Lift towing</string>
+    <string name="confirm_and_pay_after_service">Book Service</string>
+    <string name="paid_after_service">Order is placed</string>
+    <string name="sos_price_service_provider">Service Provider fee: %s</string>
+    <string name="sos_rescue_text">Your rescue radius is %s, ETA: %s</string>
+    <string name="any_other_issues_add_here">Any other issues? Add here…</string>
+    <string name="type_here">Type Issue here...</string>
+    <string name="your_otp_for_the_order">Your OTP for Pickup is</string>
+    <string name="select_services_and_checkout_fast">Select services and checkout fast</string>
+    <string name="add_service_instructions">Add Service Instructions (Optional)</string>
+    <string name="_70" translatable="false">70</string>
+    <string name="_0m_0s" translatable="false">0m 0s</string>
+    <string name="_76" translatable="false">_76</string>
+    <string name="driver_rating_text">Here is a dynamic driving report based on your driving behaviour.</string>
+    <string name="configure">Configure</string>
+    <string name="vehicle_health_inspection">Vehicle Health Inspection</string>
+    <string name="health_inspection_description">Prevention is better than cure. Remotely\n keep track of your car’s vital parameters and\n maintenance needs on a real-time basis.</string>
+    <string name="stay_in_touch">Stay in Touch</string>
+    <string name="stay_in_touch_description">In case of an unfortunate accident,\n GoConnect detects the event and automatically\n sends an alert to your emergency contacts.</string>
+    <string name="obd_low_speed">Low speed</string>
+    <string name="obd_medium_speed">Medium Speed</string>
+    <string name="obd_cruising">Cruising</string>
+    <string name="obd_over_speed">Overspeed</string>
+    <string name="obd_speed_limit">Speed Limit</string>
+    <string name="refer_screen_subtitle_home">Get a friend to start using GoMechanic</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="health_card">Health Card</string>
+    <string name="exterior_interior">Exterior &amp; Interior</string>
+    <string name="brakes_wheels">Brakes &amp;\nWheels</string>
+    <string name="suspension_steering">Suspension &amp;\nSteering</string>
+    <string name="periodic_service">Periodic Service</string>
+    <string name="electrical">Electrical</string>
+    <string name="clutch_transmission">Clutch &amp;\nTransmission</string>
+    <string name="heating_ac">Heating &amp;\nAC</string>
+    <string name="assistance_updates">Assistance Updates</string>
+    <string name="review_booking_details">Review Booking Details</string>
+    <string name="sos_order_id_text">ORDER ID: %s</string>
+    <string name="sos_service_not_available">Available From 11 am - 7 pm</string>
+    <string name="sos_service_not_available_city">Not available in your area</string>
+    <string name="sos_pickup_strip_text">Our response time is %s</string>
+    <string name="pay_in_full">Pay In Full</string>
+    <string name="online">online</string>
+    <string name="pre_pay_s">Pre-Pay ₹ %s</string>
+    <string name="pre_pay">Pre-Pay</string>
+    <string name="reserve_date">reserve date</string>
+    <string name="pre_payment">Pre-Payment</string>
+    <string name="add_service_boosters">Add Service Boosters</string>
+    <string name="your_car">Your Car</string>
+    <string name="is_ready">is ready</string>
+    <string name="go_to_cart">Go to Cart</string>
+    <string name="booking_slot_payment">Booking Slot Payment</string>
+    <string name="pay_s_full">Pay Booking Amount %s</string>
+    <string name="pay_s_prepay">Pay ₹ %s Advance</string>
+    <string name="pay_s">Pay ₹ %s</string>
+    <string name="pay">Pay %s</string>
+    <string name="health_card_text">All these parts are functioning as expected</string>
+    <string name="we_have_diagnosed">We have inspected</string>
+    <string name="chat_with_an_expert">CHAT WITH AN EXPERT</string>
+    <string name="booking_on_requires">Booking on %s Requires</string>
+    <string name="advance_payment_of">Advance Payment of ₹ %s</string>
+    <string name="sos_track_order_cta">Track Order</string>
+    <string name="gomechanic_reports">Gomechanic Reports</string>
+    <string name="gomechanic_recommend">Gomechanic Recommends</string>
+    <string name="condition_good">Good</string>
+    <string name="condition_moderate">Moderate</string>
+    <string name="condition_bad">Bad</string>
+    <string name="not_found_result_header">Uh-Oh Red Light!</string>
+    <string name="not_found_result_sub_header">We couldn\'t find what you are looking for.Please check your search query and try again :)</string>
+    <string name="download_your_health_card">Download Your Health Card</string>
+    <string name="download_report">DOWNLOAD REPORT</string>
+    <string name="gomechanic_workshops_near_you">GoMechanic Workshops Near You</string>
+    <string name="search_workshop">Search Workshop</string>
+    <string name="offers_for_commercial_vehicles">Offers for \nCommercial Vehicles</string>
+    <string name="verify">verify</string>
+    <string name="your_vehicle_has_been_verified">Your vehicle has been verified</string>
+    <string name="now_you_can_avail_offers">Now you can avail offers</string>
+    <string name="locate_us">locate us</string>
+    <string name="s_more">+ %s more</string>
+    <string name="your_car_already_verified">your car already verified</string>
+    <string name="odometer_reading_colon">Odometer Reading : </string>
+    <string name="last_service_date_colon">Last Service Date : </string>
+    <string name="sign_in_checkout"><![CDATA[Sign In & Checkout]]></string>
+    <string name="private_car_verify_successfully">Your Private Car Verify Successfully</string>
+    <string name="with_gomechanic">with GoMechanic</string>
+    <string name="get_special_discounts">Get Special Discounts</string>
+    <string name="registration_hint">HR 26 BH 3527</string>
+    <string name="verified">Verified</string>
+    <string name="verify_your_car_with_ngomechanic">Verify Your Car With \nGoMechanic</string>
+    <string name="avail_limited_period_offers">Avail Limited Period Offers</string>
+    <string name="verfiy_amp_get_discounts"><![CDATA[Verify & Get Discounts]]></string>
+    <string name="what_issue_can_you_solve">What issue can you solve?</string>
+    <string name="select_your_preferred_time">Preferred Contact Time</string>
+    <string name="additional_services_may_cost_extra">Additional services may cost extra</string>
+    <string name="pay_after_service">Pay after service</string>
+    <string name="congrats_your_car_is_verified">Congrats, Your Car is Verified!</string>
+    <string name="verifying">Verifying</string>
+    <string name="slot_selected">Slot selected</string>
+    <string name="view_summary">VIEW SUMMARY</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="reschedule_order_text">Reschedule</string>
+    <string name="order_cancelled_on">Order cancelled on</string>
+    <string name="order_delivered_on">Delivered on</string>
+    <string name="order_number">Order number</string>
+    <string name="order_placed_on">Order placed on</string>
+    <string name="order_placed_value_summary">%s at %s</string>
+    <string name="other_details">Other Details</string>
+    <string name="payment_mode_text">Payment Mode</string>
+    <string name="service_buddy_text">Service Buddy</string>
+    <string name="change_car">Change Car</string>
+    <string name="smarter_car_with">Smarter Car with</string>
+    <string name="gomechanic_obd">GoConnect</string>
+    <string name="gps_tracking">GPS Tracking</string>
+    <string name="driver_behaviour">Driver Behaviour</string>
+    <string name="accident_alerts">Accident Alerts</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="enter_year_of_manufacture">Enter Year Of Manufacturing</string>
+    <string name="year_of_manufacture">Year of manufacturing</string>
+    <string name="reschedule_order">Reschedule</string>
+    <string name="show_date">Date : %s</string>
+    <string name="show_time_slot">Slot : %s</string>
+    <string name="order_rescheduled_success">Order Rescheduled Successfully!</string>
+    <string name="challan_information">RC &amp; Challan Information</string>
+    <string name="enter_vehicle_number_text">Enter Vehicle Number To Search RC &amp; Challan Information</string>
+    <string name="enter_vehicle_number_hint">Enter Vehicle Number</string>
+    <string name="challan_number_text">Challan number</string>
+    <string name="challan_offence">Offence</string>
+    <string name="challan_location">Challan location</string>
+    <string name="challan_count_text">%s Challans</string>
+    <string name="challan_count_single_text">%s Challan</string>
+    <string name="accused_name">Accused Name</string>
+    <string name="fuel_prices">Fuel Prices</string>
+    <string name="trend_for_last_7_days">Trend for last 7 days</string>
+    <string name="traffic_rules_and_fines">Traffic Rules and Fines</string>
+    <string name="challan">Challan Information</string>
+    <string name="note">Note: %s</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="search_text">Search</string>
+    <string name="order_details_text">Order Details</string>
+    <string name="job_card_text_seperated">Job Card</string>
+    <string name="challan_message">No Registered Challans for this Vehicle</string>
+    <string name="traffic_rules_disclaimer">collected from different websites, news agencies and government sources. They may change at times. Please check the official government websites and verify the information before making any decision.</string>
+    <string name="customer_chat">Customer Chat</string>
+    <string name="job_status">Job Status</string>
+    <string name="for_any_assistance_please_connect">For any assistance, please connect :</string>
+    <string name="review_job_card">Review Job Card</string>
+    <string name="your_can_download_and_view_the_job_card_for_your_reference">You can download and view the Job Card for your reference</string>
+    <string name="rescheduling_fee_text">Rescheduling Fee</string>
+    <string name="free_text">Free</string>
+    <string name="chat_with_support">Chat With Support</string>
+    <string name="directions">Directions</string>
+    <string name="efficiency">Mileage</string>
+    <string name="gear_assembly">Drive\nTrain</string>
+    <string name="improve">Improve</string>
+    <string name="set_radius">Set Radius</string>
+    <string name="total_time">Total Time</string>
+    <string name="avg_speed">Avg Speed</string>
+    <string name="range">Range</string>
+    <string name="_">-</string>
+    <string name="max_trip_distance">Max Trip Distance</string>
+    <string name="track">Track</string>
+    <string name="m">m</string>
+    <string name="odometer">Odometer</string>
+    <string name="overall_condition">Overall Condition</string>
+    <string name="last_diagnosed">Last Diagnosed</string>
+    <string name="driving_analysis">Driving Analysis</string>
+    <string name="mileage">Mileage</string>
+    <string name="sudden_acceleration">Sudden\nAcceleration</string>
+    <string name="more_text">More</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="registration_date">Registration Date</string>
+    <string name="make_model_text">Make/Model</string>
+    <string name="engine_number">Engine number</string>
+    <string name="chassis_number">Chassis number</string>
+    <string name="fitness_upto">FITNESS UPTO</string>
+    <string name="age_of_vehicle">Age of Vehicle</string>
+    <string name="emission_norm">Emission Norm</string>
+    <string name="fuel_type">FUEL TYPE</string>
+    <string name="insurance_expiration">INSURANCE EXPIRATION</string>
+    <string name="vehicle_class">VEHICLE CLASS</string>
+    <string name="less_text">Less</string>
+
+    <string name="congrats_verification">Congrats!</string>
+    <string name="your_car_has_been">Your Car Has Been</string>
+    <string name="verified_successfully">Verified Successfully</string>
+    <string name="health_card_available">Health Card Available</string>
+    <string name="check_your_car_health_card_now">Check your car\'s Health Card now</string>
+    <string name="view_here">View Here</string>
+    <string name="documents_pending_to_intimate_insurance_claim">Documents pending to intimate Insurance claim</string>
+    <string name="obd_help">OBD Help</string>
+    <string name="track_now">Track Now</string>
+    <string name="no_error_found_car_scanning">You have taken great care of your car. No error found!</string>
+    <string name="refer_and_earn_sub_text">Guaranteed reward for every referral</string>
+    <string name="have_a_question">Have a question?</string>
+    <string name="wallet_activity">Wallet Activity</string>
+    <string name="amount_with_symbol">₹ %s</string>
+    <string name="credit_amount_text">+ %s</string>
+    <string name="debit_amount_text">- %s</string>
+    <string name="what_did_we_impress_you_with">What did we impress you with?</string>
+    <string name="your_words_mean_the_world_to_us_you_are_the_driver">Your words mean the world to us. You are the driver!</string>
+    <string name="rate_your_experience">Rate your experience</string>
+    <string name="escalation_manager">Escalation manager</string>
+    <string name="if_you_have_additional_queries_contact_your_service_buddy">If you have additional queries contact your service buddy.</string>
+    <string name="have_doubts_for_your_order">Have doubts for your order ?</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="changed_your_mind">Changed your mind ?</string>
+    <string name="go_mechanic_service_buddy">GoMechanic Service Buddy</string>
+    <string name="exit_app">Press again to exit.</string>
+    <string name="details_text">Details</string>
+    <string name="more_service_text">&#160; ...+%s more</string>
+    <string name="download_text">Download</string>
+    <string name="expires_on">Expires On:</string>
+    <string name="faqs_with_number">%s. %s</string>
+    <string name="issues_detected">Issues Detected</string>
+    <string name="order_id_small_text">Order ID:</string>
+    <string name="location_updated_at_colon">Location Updated At :</string>
+    <string name="rate_text">Rate</string>
+    <string name="gomechanic_windshield_warranty_header">GoMechanic Windshield Warranty</string>
+    <string name="gomechanic_windshield_warranty_sub_header">Free Paint Protection Replacement in Case of Defective Coating</string>
+    <string name="no_wallet_history">No wallet history</string>
+    <string name="trip_taken">Trips Taken</string>
+    <string name="material_calendar_monday">Mo</string>
+    <string name="material_calendar_tuesday">Tu</string>
+    <string name="material_calendar_wednesday">We</string>
+    <string name="material_calendar_thursday">Th</string>
+    <string name="material_calendar_friday">Fr</string>
+    <string name="material_calendar_saturday">Sa</string>
+    <string name="material_calendar_sunday">Su</string>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <string name="daily_text">Daily</string>
+    <string name="weekly_text">Weekly</string>
+    <string name="monthly_text">Monthly</string>
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="material_calendar_day_abbreviations_array">
+        <item>@string/material_calendar_sunday</item>
+        <item>@string/material_calendar_monday</item>
+        <item>@string/material_calendar_tuesday</item>
+        <item>@string/material_calendar_wednesday</item>
+        <item>@string/material_calendar_thursday</item>
+        <item>@string/material_calendar_friday</item>
+        <item>@string/material_calendar_saturday</item>
+    </array>
+    <string name="gomechanic_warranty">GoMechanic Warranty</string>
+    <string name="trip_history">Trip History</string>
+    <string name="your_trip_on">Your trip on</string>
+    <string name="speed_in_kmph">Speed in kmph</string>
+    <string name="_0_20">0–20</string>
+    <string name="_21_30">21–30</string>
+    <string name="_31_80">31–80</string>
+    <string name="_81_100">81–100</string>
+    <string name="_101_plus">101+</string>
+    <string name="kmph">kmph</string>
+    <string name="kmpl">kmpl</string>
+    <string name="top_speed">Top Speed</string>
+    <string name="drving_time">Driving Time</string>
+    <string name="trip_alerts">Trip Alerts</string>
+    <string name="timeline">Timeline</string>
+    <string name="speed_map">Speed Map</string>
+    <string name="start">Start</string>
+    <string name="end">end</string>
+    <string name="alerts_during_trip">You received <b>%s alerts</b> during this trip</string>
+    <string name="all_trips">all trips</string>
+    <string name="track_live">Track Live</string>
+    <string name="total_n_time">Total\nTime</string>
+    <string name="total_ndistance">Total\nDistance</string>
+    <string name="current_nspeed">Current\nSpeed</string>
+    <string name="current_n_rpm">Current\nRPM</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="rpm">rpm</string>
+    <string name="_h">h</string>
+    <string name="add_ons">Add Ons</string>
+    <string name="customisable">Customisable</string>
+    <string name="hr">hr</string>
+    <string name="no_trips_here_go_on_a_ride">No trips here. Go on a ride!</string>
+    <string name="alert_notifications">Alert Notifications</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="vehicle_health">Vehicle Health</string>
+    <string name="vehicle_health_text">Check vital signs such as engine status, battery level and coolant temperature.</string>
+    <string name="last_trip_stats">Last Trip Stats</string>
+    <string name="detailed_health_report">Detailed Health Report</string>
+    <string name="view_rate_card">View Rate Card</string>
+    <string name="pollution_control">Pollution Control</string>
+    <string name="recommended_action">Recommended action</string>
+    <string name="all_trips_text_from_to">All the trips you have taken today from %s to %s</string>
+    <string name="all_trips_text_in">All the trips you have taken in %s</string>
+    <string name="all_trips_text_on">All the trips you have taken on %s</string>
+    <string name="min">min</string>
+    <string name="learn_more">Learn More</string>
+    <string name="no_major_issues_detected">No major issues detected</string>
+    <string name="attention_required">Attention Required</string>
+    <string name="_91">+91 %s</string>
+    <string name="temp_c">%s °C</string>
+    <string name="voltage_v">%s V</string>
+    <string name="_10000">10000</string>
+    <string name="windshield_warranty">Windshield Warranty</string>
+    <string name="device_out_of_sync_toast_msg">Device Out of Sync - Replug Again</string>
+    <string name="alert_timeline_subtitle">You led to higher wear and tear and reduced fuel  efficiency of your car. Don’t rev, be easy on your car.</string>
+    <string name="invite_workshop_gomech">Invite workshops to \nGoMechanic!</string>
+</resources>

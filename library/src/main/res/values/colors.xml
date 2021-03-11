@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e73c33</color>
+    <color name="daysLabelColor">#1D1D1B</color>
+    <color name="currentMonthDayColor">#1D1D1B</color>
+    <color name="nextMonthDayColor">#999999</color>
+    <color name="calendarWeekDaysColor">#999999</color>
+    <color name="disabledDialogButtonColor">#1F000000</color>
+    <color name="itemHighlightColor">#1F000000</color>
+    <color name="itemFocusedColor">#1A000000</color>
+    <color name="defaultColor">#2962FF</color>
+    <color name="trans_white">#80FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#999999</color>
+    <color name="divider_grey">#e6e6e6</color>
+    <color name="light_grey_2">#f4f4f4</color>
+</resources>

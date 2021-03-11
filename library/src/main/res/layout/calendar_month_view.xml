@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dp_24"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/monthLabel"
+        android:layout_width="@dimen/dp_72"
+        android:layout_height="@dimen/dp_28"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/museosans500"
+        android:gravity="center"
+        android:textColor="@color/currentMonthDayColor"
+        android:textSize="@dimen/sp_14"
+        tools:text="Mar" />
+
+</LinearLayout>
+

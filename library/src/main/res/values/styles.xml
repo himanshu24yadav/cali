@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="TimelineSelected700TextStyle">
+        <item name="android:fontFamily">@font/museosans700</item>
+    </style>
+
+    <style name="TimelineUnSelected500TextStyle">
+        <item name="android:fontFamily">@font/museosans500</item>
+    </style>
+
+</resources>
