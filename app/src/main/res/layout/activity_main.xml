@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="tvDayView,tvMonthView,tvSelectionTypeView"/>
 
-    <com.example.library.calendarView.CalenderView
+    <com.himanshu24yadav.cali.calendarView.CalenderView
         android:id="@+id/selectionTypeCal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.example.library.calendarView.CalenderView
+    <com.himanshu24yadav.cali.calendarView.CalenderView
         android:id="@+id/dayCal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.example.library.calendarView.CalenderView
+    <com.himanshu24yadav.cali.calendarView.CalenderView
         android:id="@+id/monthCal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
