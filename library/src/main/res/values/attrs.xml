@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomCalenderView">
+    <declare-styleable name="CalenderView">
         <attr name="headerColor" format="color" />
         <attr name="headerLabelColor" format="color" />
         <attr name="previousButtonSrc" format="integer" />
