@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CalenderView">
-        <attr name="headerColor" format="color" />
-        <attr name="headerLabelColor" format="color" />
-        <attr name="previousButtonSrc" format="integer" />
-        <attr name="forwardButtonSrc" format="integer" />
-        <attr name="todayLabelColor" format="color" />
-        <attr name="selectionColor" format="color" />
-        <attr name="selectionLabelColor" format="color" />
-        <attr name="disabledDaysLabelsColor" format="color" />
-        <attr name="highlightedDaysLabelsColor" format="color" />
-        <attr name="pagesColor" format="color" />
-        <attr name="abbreviationsBarColor" format="color" />
-        <attr name="abbreviationsLabelsColor" format="color" />
-        <attr name="daysLabelsColor" format="color" />
-        <attr name="anotherMonthsDaysLabelsColor" format="color" />
-        <attr name="eventsEnabled" format="boolean" />
-        <attr name="swipeEnabled" format="boolean" />
-        <attr name="calenderSelectionTypeEnabled" format="boolean" />
-        <attr name="selectionDisabled" format="boolean" />
-        <attr name="selectionBetweenMonthsEnabled" format="boolean" />
-        <attr name="maximumDaysRange" format="integer" />
-        <attr name="typeface" format="integer" />
-        <attr name="todayTypeface" format="integer" />
-        <attr name="type" />
-        <attr name="calendarViewType" />
-        <attr name="firstDayOfWeek" />
+        <attr name="hy_headerColor" format="color" />
+        <attr name="hy_headerLabelColor" format="color" />
+        <attr name="hy_previousButtonSrc" format="integer" />
+        <attr name="hy_forwardButtonSrc" format="integer" />
+        <attr name="hy_todayLabelColor" format="color" />
+        <attr name="hy_selectionColor" format="color" />
+        <attr name="hy_selectionLabelColor" format="color" />
+        <attr name="hy_disabledDaysLabelsColor" format="color" />
+        <attr name="hy_highlightedDaysLabelsColor" format="color" />
+        <attr name="hy_pagesColor" format="color" />
+        <attr name="hy_abbreviationsBarColor" format="color" />
+        <attr name="hy_abbreviationsLabelsColor" format="color" />
+        <attr name="hy_daysLabelsColor" format="color" />
+        <attr name="hy_anotherMonthsDaysLabelsColor" format="color" />
+        <attr name="hy_eventsEnabled" format="boolean" />
+        <attr name="hy_swipeEnabled" format="boolean" />
+        <attr name="hy_calenderSelectionTypeEnabled" format="boolean" />
+        <attr name="hy_selectionDisabled" format="boolean" />
+        <attr name="hy_selectionBetweenMonthsEnabled" format="boolean" />
+        <attr name="hy_maximumDaysRange" format="integer" />
+        <attr name="hy_typeface" format="integer" />
+        <attr name="hy_todayTypeface" format="integer" />
+        <attr name="hy_type" />
+        <attr name="hy_calendarViewType" />
+        <attr name="hy_firstDayOfWeek" />
     </declare-styleable>
 
-    <attr name="calendarViewType" format="enum">
+    <attr name="hy_calendarViewType" format="enum">
         <enum name="day" value="201" />
         <enum name="month" value="202" />
     </attr>
 
-    <attr name="type" format="enum">
+    <attr name="hy_type" format="enum">
         <enum name="classic" value="0" />
         <enum name="one_day_picker" value="1" />
         <enum name="many_days_picker" value="2" />
         <enum name="range_picker" value="3" />
     </attr>
 
-    <attr name="firstDayOfWeek" format="enum">
+    <attr name="hy_firstDayOfWeek" format="enum">
         <enum name="sunday" value="1" />
         <enum name="monday" value="2" />
         <enum name="tuesday" value="3" />

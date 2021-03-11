@@ -89,37 +89,37 @@ class CalenderView @JvmOverloads constructor(context: Context, attrs: AttributeS
     }
 
     private fun initCalendarProperties(typedArray: TypedArray) = with(calendarProperties) {
-        headerColor = typedArray.getColor(R.styleable.CalenderView_headerColor, 0)
-        headerLabelColor = typedArray.getColor(R.styleable.CalenderView_headerLabelColor, 0)
-        abbreviationsBarColor = typedArray.getColor(R.styleable.CalenderView_abbreviationsBarColor, 0)
-        abbreviationsLabelsColor = typedArray.getColor(R.styleable.CalenderView_abbreviationsLabelsColor, 0)
-        pagesColor = typedArray.getColor(R.styleable.CalenderView_pagesColor, 0)
-        daysLabelsColor = typedArray.getColor(R.styleable.CalenderView_daysLabelsColor, 0)
-        anotherMonthsDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_anotherMonthsDaysLabelsColor, 0)
-        todayLabelColor = typedArray.getColor(R.styleable.CalenderView_todayLabelColor, 0)
-        selectionColor = typedArray.getColor(R.styleable.CalenderView_selectionColor, 0)
-        selectionLabelColor = typedArray.getColor(R.styleable.CalenderView_selectionLabelColor, 0)
-        disabledDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_disabledDaysLabelsColor, 0)
-        highlightedDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_highlightedDaysLabelsColor, 0)
-        calendarType = typedArray.getInt(R.styleable.CalenderView_type, ONE_DAY_PICKER)
-        maximumDaysRange = typedArray.getInt(R.styleable.CalenderView_maximumDaysRange, 0)
-        calendarViewType = typedArray.getInt(R.styleable.CalenderView_calendarViewType, VIEW_TYPE_DAY)
+        headerColor = typedArray.getColor(R.styleable.CalenderView_hy_headerColor, 0)
+        headerLabelColor = typedArray.getColor(R.styleable.CalenderView_hy_headerLabelColor, 0)
+        abbreviationsBarColor = typedArray.getColor(R.styleable.CalenderView_hy_abbreviationsBarColor, 0)
+        abbreviationsLabelsColor = typedArray.getColor(R.styleable.CalenderView_hy_abbreviationsLabelsColor, 0)
+        pagesColor = typedArray.getColor(R.styleable.CalenderView_hy_pagesColor, 0)
+        daysLabelsColor = typedArray.getColor(R.styleable.CalenderView_hy_daysLabelsColor, 0)
+        anotherMonthsDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_hy_anotherMonthsDaysLabelsColor, 0)
+        todayLabelColor = typedArray.getColor(R.styleable.CalenderView_hy_todayLabelColor, 0)
+        selectionColor = typedArray.getColor(R.styleable.CalenderView_hy_selectionColor, 0)
+        selectionLabelColor = typedArray.getColor(R.styleable.CalenderView_hy_selectionLabelColor, 0)
+        disabledDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_hy_disabledDaysLabelsColor, 0)
+        highlightedDaysLabelsColor = typedArray.getColor(R.styleable.CalenderView_hy_highlightedDaysLabelsColor, 0)
+        calendarType = typedArray.getInt(R.styleable.CalenderView_hy_type, ONE_DAY_PICKER)
+        maximumDaysRange = typedArray.getInt(R.styleable.CalenderView_hy_maximumDaysRange, 0)
+        calendarViewType = typedArray.getInt(R.styleable.CalenderView_hy_calendarViewType, VIEW_TYPE_DAY)
 
-        if (typedArray.hasValue(R.styleable.CalenderView_firstDayOfWeek)) {
-            firstDayOfWeek = typedArray.getInt(R.styleable.CalenderView_firstDayOfWeek, Calendar.MONDAY)
+        if (typedArray.hasValue(R.styleable.CalenderView_hy_firstDayOfWeek)) {
+            firstDayOfWeek = typedArray.getInt(R.styleable.CalenderView_hy_firstDayOfWeek, Calendar.MONDAY)
         }
 
-        eventsEnabled = typedArray.getBoolean(R.styleable.CalenderView_eventsEnabled, calendarType == ONE_DAY_PICKER)
-        swipeEnabled = typedArray.getBoolean(R.styleable.CalenderView_swipeEnabled, true)
-        calenderSelectionTypeEnabled = typedArray.getBoolean(R.styleable.CalenderView_calenderSelectionTypeEnabled, true)
-        selectionDisabled = typedArray.getBoolean(R.styleable.CalenderView_selectionDisabled, false)
-        selectionBetweenMonthsEnabled = typedArray.getBoolean(R.styleable.CalenderView_selectionBetweenMonthsEnabled, false)
-        previousButtonSrc = typedArray.getDrawable(R.styleable.CalenderView_previousButtonSrc)
-        forwardButtonSrc = typedArray.getDrawable(R.styleable.CalenderView_forwardButtonSrc)
+        eventsEnabled = typedArray.getBoolean(R.styleable.CalenderView_hy_eventsEnabled, calendarType == ONE_DAY_PICKER)
+        swipeEnabled = typedArray.getBoolean(R.styleable.CalenderView_hy_swipeEnabled, true)
+        calenderSelectionTypeEnabled = typedArray.getBoolean(R.styleable.CalenderView_hy_calenderSelectionTypeEnabled, true)
+        selectionDisabled = typedArray.getBoolean(R.styleable.CalenderView_hy_selectionDisabled, false)
+        selectionBetweenMonthsEnabled = typedArray.getBoolean(R.styleable.CalenderView_hy_selectionBetweenMonthsEnabled, false)
+        previousButtonSrc = typedArray.getDrawable(R.styleable.CalenderView_hy_previousButtonSrc)
+        forwardButtonSrc = typedArray.getDrawable(R.styleable.CalenderView_hy_forwardButtonSrc)
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            typeface = typedArray.getFont(R.styleable.CalenderView_typeface)
-            todayTypeface = typedArray.getFont(R.styleable.CalenderView_todayTypeface)
+            typeface = typedArray.getFont(R.styleable.CalenderView_hy_typeface)
+            todayTypeface = typedArray.getFont(R.styleable.CalenderView_hy_todayTypeface)
         }
     }
 
