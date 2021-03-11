@@ -105,7 +105,7 @@ All prefixed `hy_` for ease
 `hy_type` : Possible values classic/one_day_picker/many_days_picker/range_picker . If provided this then hy_calendarViewType will be day and selection option will be selected as per provided in this attribute.
 
 
-##Methods
+### Methods
 
 - **setOnItemClickListener** : OnDayClickListener interface responsible for handle clicks on calendar cells
 - **setOnDayLongClickListener** : OnDayClickListener interface responsible for handle long clicks on calendar cells
